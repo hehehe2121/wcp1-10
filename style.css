@@ -306,6 +306,7 @@ nav {
 }
 .contact-mailbox{
 	text-align: left;
+    display: inline-block;
 }
 .contact-mail {
 	font-size: 20px;
@@ -321,6 +322,7 @@ nav {
 }
 .contact-tellbox{
 	text-align: left;
+    display: inline-block;
 }
 .contact-tell {
 	font-size: 20px;
@@ -357,14 +359,15 @@ footer {
 .footer-text {
 	font-size: 16px;
 	color: #FAFAFA;
-	line-height:60px
+	line-height:60px;
 }
 @media screen and (max-width:767px) {
 	body {
 		width: 100%;
 	}
 	.box {
-
+		padding: 0 5px;
+		width: 90%;
 	}
 	header {
 		width: 100%;
@@ -499,6 +502,9 @@ footer {
 	.contact-contents {
 		width: 90%;
 		margin: 0 auto;
+	}
+	.contact-container {
+		width: 320px;
 	}
 	.contact-container {
 		width: 320px;
