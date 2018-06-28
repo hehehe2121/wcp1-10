@@ -284,9 +284,12 @@ nav {
 	width: 400px;
 	float: left;
 	text-align: center;
+<<<<<<< HEAD
 }
 .contact-box {
 	display: inline-block;
+=======
+>>>>>>> c75467b50158c22183931c96ee014c25109cd375
 }
 .contact-sns-box {
 	width: 400px;
@@ -305,6 +308,10 @@ nav {
 }
 .contact-mailbox{
 	text-align: left;
+<<<<<<< HEAD
+=======
+    display: inline-block;
+>>>>>>> c75467b50158c22183931c96ee014c25109cd375
 }
 .contact-mail {
 	font-size: 20px;
@@ -320,6 +327,10 @@ nav {
 }
 .contact-tellbox{
 	text-align: left;
+<<<<<<< HEAD
+=======
+    display: inline-block;
+>>>>>>> c75467b50158c22183931c96ee014c25109cd375
 }
 .contact-tell {
 	font-size: 20px;
@@ -363,7 +374,12 @@ footer {
 		width: 100%;
 	}
 	.box {
+<<<<<<< HEAD
 		padding: 0 5%;
+=======
+		padding: 0 5px;
+		width: 90%;
+>>>>>>> c75467b50158c22183931c96ee014c25109cd375
 	}
 	header {
 		width: 100%;
