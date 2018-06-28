@@ -289,11 +289,16 @@ nav {
 .contact-box {
 	display: inline-block;
 }
-.contact-sns-box {
+.contact-sns-container {
 	width: 400px;
 	float: left;
+	text-align: center;
+}
+.contact-sns-box {
+	display: inline-block;
+}
+.contact-sns-title {
 	text-align: left;
-	padding-left: 90px;
 }
 .contact-title {
 	font-size: 32px;
@@ -343,6 +348,7 @@ nav {
 .social {
 	font-size: 50px;
 	color: #000000;
+	text-align: left;
 }
 .social i {
 	padding-right: 20px;
@@ -501,7 +507,7 @@ footer {
 		margin: 0 auto;
 	}
 	.contact-container {
-		width: 320px;
+		width: 100%;
 	}
 	.contact-container {
 		width: 320px;
@@ -513,7 +519,6 @@ footer {
 		padding-left: 0px;
 	}
 	.contact-mailbox {
-		text-align: center;
 	}
 	.contact-tellbox{
 		text-align: center;
@@ -526,6 +531,16 @@ footer {
 	}
 	.contact-tell-number {
 		padding-bottom: 20px;
+	}
+	.contact-sns-container {
+		float: none;
+		width: 100%;
+	}
+	.contact-sns-title {
+		text-align: center;
+	}
+	.social {
+		text-align: center;
 	}
 	.social i {
 		padding-right: 8px;
