@@ -31,6 +31,7 @@ nav {
 }
 .nav-list {
 	text-align: right;
+	line-height:1.5
 }
 .nav-list li {
 	display: inline-block;
@@ -82,24 +83,62 @@ nav {
 .portfolio-text {
 	margin: 30px 0;
 	color: #000000;
+	font-size: 16px;
+}
+.portfolio-image-box{
+	overflow: hidden;
 }
 .portfolio-sketch {
 	background-image: url(img/sketch.jpg);
-}
+	width: 300px;
+	height: 250px;
+	background-size: 125%;
+	float: left;
+	margin-right: 10px;
+	}
 .portfolio-websuku {
 	background-image: url(img/websuku.png);
+	width: 300px;
+	height: 250px;
+	background-position: center center;
+    background-size: 135%;
+    float: left;
+    margin-right: 10px;
 	}
 .portfolio-write {
 	background-image: url(img/write.jpg);
+	width: 300px;
+	height: 250px;
+	background-position: center center;
+    background-size: 125%;
+    float: left;
 	}
 .portfolio-webcamp {
 	background-image: url(img/webcamp.png);
+	width: 300px;
+	height: 250px;
+	background-position: center center;
+    background-size: 135%;
+    float: left;
+    margin-top: 10px;
 	}
 .portfolio-talk {
 	background-image: url(img/talk.jpg);
+	width: 300px;
+	height: 250px;
+	background-size: 125%;
+	float: left;
+    margin: 0 10px;
+    margin-top: 10px;
 	}
 .portfolio-webcamp-mother {
 	background-image: url(img/webcamp-mother.png);
+	width: 300px;
+	height: 250px;
+	background-position: center center;
+    background-size: 135%;
+    float: left;
+    margin-top: 10px;
 	}
 .portfolio-image-box ul {
 	list-style: none;
@@ -176,6 +215,7 @@ nav {
 .strength-box li p {
 	font-size: 16px;
 	color: #000000;
+	text-align: left
 }
 .strength2 {
 	margin: 0 10px;
@@ -209,6 +249,7 @@ nav {
 .profile-image-text {
 	float: right;
 	width: 512px;
+	text-align: left;
 }
 .profile-myname-title {
 	font-size: 20px;
@@ -242,8 +283,7 @@ nav {
 .contact-box {
 	width: 400px;
 	float: left;
-	text-align: left;
-	padding-left: 160px;
+	text-align: center;
 }
 .contact-sns-box {
 	width: 400px;
@@ -260,20 +300,32 @@ nav {
 	padding: 30px 0;
 	color: #000000;
 }
+.contact-mailbox{
+	text-align: left;
+    display: inline-block;
+}
 .contact-mail {
 	font-size: 20px;
 	padding-bottom: 5px;
 	color: #000000;
+	display: inline-block;
+    text-align: left;
 }
 .contact-mailaddless {
 	padding-bottom: 20px;
 	text-decoration: underline;
 	color: #000000;
 }
+.contact-tellbox{
+	text-align: left;
+    display: inline-block;
+}
 .contact-tell {
 	font-size: 20px;
 	padding-bottom: 5px;
 	color: #000000;
+	display: inline-block;
+    text-align: left;
 }
 .contact-tell-number {
 	text-decoration: underline;
@@ -303,14 +355,15 @@ footer {
 .footer-text {
 	font-size: 16px;
 	color: #FAFAFA;
-	padding-top: 18px;
+	line-height:4
 }
 @media screen and (max-width:767px) {
 	body {
-		width: 90%;
+		width: 100%;
 	}
 	.box {
 		padding: 0 5px;
+		width: 90%;
 	}
 	header {
 		width: 100%;
@@ -403,6 +456,7 @@ footer {
 	}
 	.profile-content {
 		width: 320px;
+		overflow:auto;
 	}
 	.profile-image-text {
 		float: none;
@@ -410,6 +464,9 @@ footer {
 	}
 	.profile-myname {
 		padding: 20px 0;
+	}
+	.profile-myskills-text {
+		word-wrap: break-word;
 	}
 	.contact-content {
 		width: 320px;
